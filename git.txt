@@ -9,6 +9,7 @@
 - m ==> comentar o describir la tarea realizada
 Ej: git commit -m "Saludos"
 7. Si tocamos algo, volvemos a iniciar, menos el numero 1 (ejecutar git init)
+8. Git log ==> veo los comentarios de los cambios que realice
 
 
 
