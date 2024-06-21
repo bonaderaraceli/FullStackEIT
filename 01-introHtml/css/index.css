@@ -1,0 +1,11 @@
+/* Para los estilos en el archivo:
+selector { propiedad: valor de la propiedad }
+*/
+p {
+    /* 16px por default */
+    font-size: 35px;
+    color: saddlebrown;
+}
+div {
+    color: blue ;
+}
