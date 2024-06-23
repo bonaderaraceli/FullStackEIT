@@ -1,0 +1,28 @@
+/* 2.Regla para el uso de una tipografia local descargada */
+@font-face{
+    font-family: "vallite";
+    src: url(../assets/font/Vallite.ttf);
+    src: url(../assets/font/Vallite.otf);}
+
+    /* 3.Link de la tipografia que usaremos */
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+</style>
+
+ol li{
+    color:brown
+}
+p{
+    font-size: 24px;
+    /* 1.Tipografia del sistema operativo */
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+.folder-font{
+    font-family: "vallite";
+    font-size: 36px;
+}
+.googlefonts  {
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
