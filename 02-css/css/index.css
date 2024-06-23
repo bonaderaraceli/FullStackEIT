@@ -1,5 +1,17 @@
 /* para los estilos en el archivo:selector {propiedad: valor de la propiedad */
 /* 16 px por default */
 p{font-size: 35px;
-color: saddlebrown}
- 
+color: saddlebrown
+}
+ div
+ {color:blue;
+}
+/* 1.Selector con id, usarlo preferentemente una sola vez */
+#colorMarron{
+    color:brown
+}
+/* 2.Selector de clase, si lo podemos utilizar mas de una vez */
+.colorFondo{background-color: violet;}
+.textoGrande{
+    font-size: 60px;
+}

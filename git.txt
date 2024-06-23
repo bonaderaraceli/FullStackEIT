@@ -11,8 +11,11 @@ Ej: git commit -m "Saludos"
 7. Si tocamos algo, volvemos a iniciar, menos el numero 1 (ejecutar git init)
 8. Git status ==> consulta el estado de Git
 9. Git no guarda directorios(carpetas) vacios por default
-Git log ==> veo los comentarios de los cambios que realice
-
+10. git remote -v ==> me muestra donde estan guardados los codigos en remoto
+11. git log ==> me muestra los commits hechos y quien los hizo
 ORDEN: Git add . , git commit , git push
+
+
+
 
 
