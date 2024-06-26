@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(63, 137, 159) ;
+}
+p {
+    background-color: rgb(220, 213, 109);
+    margin-top: 75px;
+    margin-right: 250px;
+    margin-bottom:150px;
+    margin-left: 300px;
+}
+#boton{
+margin-left: 150px;
+margin-right: 200px;
+}
+.custom{
+    border: black 20px;
+    border-top: 0px;
+    border-bottom: 0px;
+    padding-left: 35px;
+padding-right: 35px;
+border-style: double;
+}
+.bordes{
+border: black 28px double; 
+padding-top: 80px;
+padding-left: 50px;
+padding-right: 45px;
+padding-bottom: 35px;
+}
+
+
