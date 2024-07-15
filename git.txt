@@ -14,6 +14,11 @@ Ej: git commit -m "Saludos"
 10. git remote -v ==> me muestra donde estan guardados los codigos en remoto
 11. git log ==> me muestra los commits hechos y quien los hizo
 ORDEN: Git add . , git commit , git push
+12. Creamos un repo en git Hub.
+13. Agregamos la url del repo remoto al git local ==> git remote add origin http: //elreporemoto.git
+14. Enviamos el repo con git push origin master.
+
+
 
 
 
