@@ -1,1 +1,26 @@
-body {background-color: aquamarine ;}
+body {background-color: rgb(117, 153, 153) ;}
+
+
+img{
+width: 450px;
+height: 300px;
+}
+
+ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: inline;
+}
+
+main{
+display: flex;
+/*flex-direction: row; elementos en fila por default */
+/*flex-direction: column; elementos en columna ordenados*/
+/*flex-direction: row row-reverse; elementos en fila pero en reversa*/
+/*flex-direction: column reverse; elementos en columna pero en reversa*/
+flex-direction: row;
+/*flex-wrap: nowrap; por default no hace un salto de linea cuando llega al final*/
+flex-wrap: wrap; /*habilita el salto de linea cuando termina la ventana*/
+
+}
