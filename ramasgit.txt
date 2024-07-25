@@ -8,3 +8,5 @@
 (git merge ramas<nombre de la rama> ej : git merge ramas)
 5. Eliminamos una rama local 
 (git branch -D <nombre de la rama> ej: git branch -D ramas)
+6. Eliminamos una rama remota 
+git push origin -d <nombre de la rama>
