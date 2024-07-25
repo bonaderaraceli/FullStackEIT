@@ -17,6 +17,8 @@ ORDEN: Git add . , git commit , git push
 12. Creamos un repo en git Hub.
 13. Agregamos la url del repo remoto al git local ==> git remote add origin http: //elreporemoto.git
 14. Enviamos el repo con git push origin master.
+15. Git log one line ==> me muestra los commits resumidos en una sola linea
+
 
 
 
