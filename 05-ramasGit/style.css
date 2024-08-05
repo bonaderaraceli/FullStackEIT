@@ -1,3 +1,10 @@
+/*reseteo de css ==> quitar los estilos por default*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {background-color: rgb(117, 153, 153) ;}
 
 
@@ -39,6 +46,7 @@ nav{
     align-content: stretch;
     justify-content: space-evenly;
     align-items: center;
+    background-color: antiquewhite;
 }
 
 ul{
