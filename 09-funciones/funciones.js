@@ -3,7 +3,7 @@
 
 //son variables globales
 
-let password;
+let password = 123456789;
 let email;
 
 
@@ -47,7 +47,7 @@ sumar(10,20);
 
 console.log('===================================');
 
-//variables locales: son las que viven dentro de una funcion y no pueden ser accedidos desde fuera de la funcion
+//variables locales: son las que viven dentro de una funcion y no pueden ser accedidos desde fuera de la funcion. FUNCION NATIVA. ARGUMENTOS. PARAMETROS.
 function sumarDos(x, y) {
     let resultado= x + y;
 
@@ -73,6 +73,7 @@ for (let index=0; index < array.length; index++) {
 console.log('===================================');
 //array funcion = funcion flecha
 // signo de igual + alt62 forman la flecha
+
 const restar = (numeroUno, numeroDos) => {
     let resultado = numeroUno - numeroDos;
     console.log (numeroUno);
@@ -83,6 +84,32 @@ const restar = (numeroUno, numeroDos) => {
 restar(100,50);
 
 console.log('===================================');
+
+console.log(password); //variable global (fuera de una funcion o bucle)
+//console.log(resultado); variable local que esta dentro de una funcion
+//console.log(index); variable local dentro de un bucle (for)
+
+//funciones con retorno de valor
+const dividir = (numeroUno, numeroDos) => {
+    let resultado = numeroUno / numeroDos;
+    return resultado;
+} 
+
+let iva= dividir (100,10)* 20;
+
+console.log('El iva a pagar es' +  iva);
+
+
+function decirNombre(nombre) {
+    let saludo = 'Hola' + nombre;
+    return saludo;
+}
+
+decirNombre('Juan');
+console.log (decirNombre ('Juan'));
+let saludo = decirNombre ('Pepe');
+console.log (saludo);
+
 
 
 
