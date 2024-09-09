@@ -34,29 +34,49 @@ const loginUser = (evento) => {
     console.log(password);
     console.log(evento);
 }
-
-// Modo oscuro
 const modoOscuro = () => {
     console.log("Activamos el modo oscuro");
 
-    // Tomamos el body
     let fondo = document.getElementById("fondo");
+    
 
-    // Tomamos el título
     let titulo = document.getElementById("titulo");
+    
 
-    // Tomamos el botón
     let boton = document.getElementById("boton");
+    
 
-    // Cambiamos el color de fondo
-    fondo.style.backgroundColor = "black";
-
-    // Cambiamos el color del título
+    fondo.style.backgroundColor = "#0D1117";
     titulo.style.color = "white";
-
-    // Cambiamos el texto del botón
     boton.innerHTML = "Modo Claro";
+
+    let oculto = document.getElementById("oculto").value
+    alert(oculto);
+    let archivo = document.getElementById("archivo")
+    archivo.style.backgroundColor= "black";
 }
+
+const mostrar = () => {
+    let password = document.getElementById("password");
+    //tomamos el icono para el password
+    let iconoOjo = document.getElementById("iconoOjo");
+
+    
+    
+    if (password.type === "password"){
+        password.type = "text";}
+    else {
+        password.type = "password";}
+} 
+
+let dia = new Date();
+
+console.log(dia);
+console.log(dia.getDay());
+console.log(dia.getFullYear());
+console.log(dia.getMonth());
+console.log(dia.setMilliseconds());
+console.log(dia.getUTCDay());
 
 
 
