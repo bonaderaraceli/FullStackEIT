@@ -1,0 +1,17 @@
+//anidamos estilos dentro de css
+.nav{
+    background-color: $color2;
+    @include centrar;
+    ul{
+        list-style: none;
+        li{
+            display: block;
+            a{
+                color: white;
+                &:hover{
+                    color: $color3;
+                }
+            }
+        }
+    }
+}
