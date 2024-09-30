@@ -33,7 +33,7 @@ let liNosotros = document.createElement("li"); // creamos un elemento li
 
 /*
 le sacamos el texto a los elementos li y le agregamos a las anclas
-liIncio.innerHTML = "Inicio"; // le agregamos el texto al li
+liInicio.innerHTML = "Inicio"; // le agregamos el texto al li
 liPractico.innerHTML = "Práctico 07"; // le agregamos el texto al li
 liContacto.innerHTML = "Contacto"; // le agregamos el texto al li
 liNosotros.innerHTML = "Nosotros"; // le agregamos el texto al li

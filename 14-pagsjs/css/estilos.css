@@ -94,7 +94,7 @@ h1 > strong {
 }
 
 #toadette {
-    background: url('./img/toadette.jpg');
+    background: url('../img/toadette.jpg');
 }
 
 #daisy {

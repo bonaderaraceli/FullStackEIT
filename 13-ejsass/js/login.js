@@ -69,7 +69,7 @@ formulario.addEventListener('submit', (e) => {
         
     }
 
-    //DOM avanaado de JS
+    //DOM avanzado de JS
     // guardamos datos en el localsotrage: es la memoria local del navegador
     //                      key     value
     localStorage.setItem("email", email);
