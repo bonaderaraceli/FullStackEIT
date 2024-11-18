@@ -1,4 +1,4 @@
-//importar lodos los archivos de express
+//require : importar lodos los archivos de express
 const express = require('express'); 
 
 //crear una aplicacion de express
