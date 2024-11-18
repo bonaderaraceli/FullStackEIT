@@ -22,7 +22,7 @@ const Carrito = () => {
             setUser(window.sessionStorage.getItem('user'));
             setCarrito(producto);
         }
-    },[]);
+    },[navigate]);
 
     const eliminarDatos = () => {
         localStorage.removeItem('producto');
@@ -33,13 +33,13 @@ const Carrito = () => {
     return (
         <div className="container text-center">
             <h1>Carrito de {user}</h1>
-            <div class="card">
+            <div className="card">
                 <img src={imag1} class="card-img-top" alt="..." />
-                    <div class="card-body">
-                        <h5 class="card-title">{carrito.nombre}</h5>
-                        <p class="card-text">{carrito.descripcion}</p>
-                        <p class="card-text">Precio: ${carrito.precio}</p>
-                        <button onClick={eliminarDatos} class="btn btn-primary">Comprar</button>
+                    <div className="card-body">
+                        <h5 className="card-title">{carrito.nombre}</h5>
+                        <p className="card-text">{carrito.descripcion}</p>
+                        <p className="card-text">Precio: ${carrito.precio}</p>
+                        <button onClick={eliminarDatos} className="btn btn-primary">Comprar</button>
                     </div>
             </div>
         </div>

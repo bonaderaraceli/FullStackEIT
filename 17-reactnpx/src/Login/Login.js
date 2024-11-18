@@ -1,4 +1,4 @@
-import './login.css';
+import '../Login/Login.css';
 import { useNavigate } from "react-router-dom";
 import { useState } from 'react';
 
@@ -19,12 +19,12 @@ const Login = () => {
         console.log(password);
         
 
-        if(email == '' || password == '') { 
+        if(email === '' || password === '') { 
             alert("Complete los campos");
             return;
         }
 
-        if(email == 'pepe@gmail.com' && password == '1234') {
+        if(email === 'pepe@gmail.com' && password === '1234') {
             alert("Login realizado")
             window.sessionStorage.setItem('user', 'pepe@gmail.com');
             navigate('/admin');         
@@ -40,25 +40,25 @@ const Login = () => {
                 Login React
             </h1>
 
-            <div class="container">
+            <div className="container">
 
-                <form class="w-75">
-                    <div class="mb-3">
+                <form className="w-75">
+                    <div className="mb-3">
                         <label for="email" class="form-label">Email address</label>
                         <input 
                             type="email" 
-                            class="form-control" 
+                            className="form-control" 
                             id="email" 
                             value={email}
                             onChange={(event) => setEmail(event.target.value)}
                             aria-describedby="emailHelp" 
                             />
                     </div>
-                    <div class="mb-3">
+                    <div className="mb-3">
                         <label for="password" class="form-label">Password</label>
                         <input 
                             type="password" 
-                            class="form-control" 
+                            className="form-control" 
                             id="password" 
                             value={password}
                             onChange={(e) => setPassword(e.target.value)}
@@ -67,10 +67,10 @@ const Login = () => {
                     </div>
 
                     <div className='d-flex mt-5 justify-content-around'>                       
-                            <button type="reset" class="btn btn-danger w-25">
+                            <button type="reset" className="btn btn-danger w-25">
                                 Borrar
                             </button>
-                            <button type="submit" onClick={loginUser} class="btn btn-primary w-25">
+                            <button type="submit" onClick={loginUser} className="btn btn-primary w-25">
                                 Login
                             </button>
                     </div>

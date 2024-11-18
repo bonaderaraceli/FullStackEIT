@@ -3,8 +3,6 @@ import imagenUno from '../image/img1.jpg';
 import imagenDos from '../image/img2.jpg';
 import imagenTres from '../image/img3.jpg';
 
-
-
 const Home = () => {
 
     return (

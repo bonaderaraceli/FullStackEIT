@@ -13,7 +13,7 @@ const Navegacion = () => {
         <>
             <header>
                 <nav>
-                    <div class="logo">
+                    <div className="logo">
                         <Link to="/">
                             <img src={imagen} alt="logo" />
                         </Link>
@@ -47,14 +47,14 @@ const Navegacion = () => {
                         </li>
                         <li>
                             <Link to="/carrito">
-                            <i class="bi bi-cart-check-fill">
+                            <i className="bi bi-cart-check-fill">
                                 Carrito
                             </i>
                             </Link>
                         </li>
                     </ul>
-                    <input class="buscar" type="search" id="search" name="search" />
-                    <button onClick={buscar} class="boton">Buscar</button>
+                    <input className="buscar" type="search" id="search" name="search" />
+                    <button onClick={buscar} className="boton">Buscar</button>
                 </nav>
             </header>
         </>

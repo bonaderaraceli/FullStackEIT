@@ -10,12 +10,12 @@ const Footer = () => {
     return(
 
     <footer>
-        <div class="logoDos">
+        <div className="logoDos">
             <a href="index.html">
                 <img src={logo} alt="logo" />
             </a>
         </div> 
-        <div class="datos">
+        <div className="datos">
             <h4>Dirección: Av. Brasil 2025 <br />
                 Tel. 29367808 <br />
                 Whatsapp: 096536789
@@ -23,13 +23,13 @@ const Footer = () => {
         </div>
         <hr />
         <h5>Redes Sociales</h5>
-        <div class="redes">
+        <div className="redes">
             <img src={instagram} alt="Instagram" />
             <img src={facebook} alt="Facebook" />
             <img src={tiktok} alt="TikTok" />
         </div>
         <hr />
-        <div class="textoFinal">
+        <div className="textoFinal">
             <p>Derechos reservados MEGAFIT</p>
         </div>
     </footer>
