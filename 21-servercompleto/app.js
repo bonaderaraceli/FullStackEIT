@@ -1,9 +1,11 @@
+
 // 1. Importamos los módulos necesarios
 const express = require('express');
 const hbs = require('hbs');
 const bodyParser = require('body-parser');
 const path = require('path');
 const morgan = require('morgan');
+
 
 // importamos las rutas de la aplicación
 const routerHome = require('./router/routerHome');
@@ -20,6 +22,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static(path.join(__dirname, "/public")));
 app.use(morgan('dev')); 
+
 
 // Rutas de la aplicación como middleware
 app.use('/', routerHome);
